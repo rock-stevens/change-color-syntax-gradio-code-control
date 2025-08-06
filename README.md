@@ -1,5 +1,8 @@
 # change-color-syntax-gradio-code-control
-Rock's Demo for Gradio's gr.Code control to Change the Color Syntax Highlighting
+## Rock's Demo for Gradio's gr.Code control to Change the Color Syntax Highlighting
+
+![Rock's Demo for Gradio's gr.Code control to Change the Color Syntax Highlighting
+](screenshot.png)
 
 ## Introduction
 
