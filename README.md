@@ -131,12 +131,12 @@ gradio gr_Rock_ColorSyntaxHighlight_LiveDemo_v3.py
 Try and edit something in the CSS, and when you save your code changes, a few moments later, *after Gradio detects the change and reloads the program*, you'll see the changes.
 
 'This program', and the 'F12 key' in my browser to inspect the CSS elements and code, is what I used to get all the CSS names, in both variations of the CSS in Gradio. Plus all of the testing.  
-(*This program became a very useful too. I'm sure I'll be using it again*)
+(*This program became a very useful tool. I'm sure I'll be using it again*)
 
 
 I still had to find a way to reload color changes without reloading or re-starting the app !
 
-Although this is what I refer to as 'static' and is fine for apps which need no color change while running. Also, a lot of users are ok with saving color settings, then re-starting the app. Demo 1 and Demo 2 is ok for that type of 'static' application. And Demo 3 uses *reload* which you can not use (*should not*) in production.
+Although this is what I refer to as 'static' and is fine for apps which need no color change while running. Also, a lot of users are ok with saving color settings, then re-starting the app. Demo 1 and Demo 2 is ok for that type of 'static' application. And Demo 3 uses *reload* which you can not use (*should not*) in production. This also relies on the user not making (saving) coding mistakes, or the app may (will) bomb out when Gradio tries to restart it.
 
 ----
 
